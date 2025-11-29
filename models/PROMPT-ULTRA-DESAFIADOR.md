@@ -304,7 +304,7 @@ class DensidadeSemanticaLocal:
 
 ```
 DENSIDADE SEMÂNTICA LOCAL em "Democracia":
-
+```
 Região 1: DEFINIÇÃO PROCEDIMENTAL
 ├─ "Sistema de votação com múltiplos atores"
 ├─ Densidade: 0.87 💎 (CRISTALINO)
@@ -541,7 +541,7 @@ class GravidadeConceitual:
 
 ```
 CAMPO GRAVITACIONAL de "Justiça":
-
+```
 📍 EVENT HORIZON (Gravidade > 0.9)
 ├─ Conceitos: Igualdade, Direito, Culpa
 ├─ Distância: Quase imersos em "Justiça"
@@ -736,7 +736,9 @@ Assim como terraformação modifica um planeta para sustentar nova vida,
 
 ### Fase 1: CARTOGRAFIA PROFUNDA (Identificar o terreno atual)
 ```
+
 Usar ECS completa:
+```
 ├─ E1: Mapear curvatura (como deforma)
 ├─ E2: Encontrar fissuras (onde quebra)
 ├─ E3: Medir densidade (onde é claro)
