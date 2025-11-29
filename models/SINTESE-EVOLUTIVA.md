@@ -9,16 +9,16 @@ Este documento consolida o conhecimento da biblioteca anterior com as técnicas 
 ## 📚 PARTE I: TAXONOMIA UNIFICADA DE TÉCNICAS
 
 ### Nível 1: Técnicas Fundamentais
-
+```
 || Técnica | Descrição | Uso | SD |
 |---------|-----------|-----|-----|
 | **Zero-Shot** | Instrução sem exemplares | Baseline rápido | 0.5 |
 | **Few-Shot** | K exemplares (K≥1) | Generalização | 0.7 |
 | **Basic Prompting** | Input + Instrução | Simples | 0.4 |
 | **Role Prompting** | Persona/contexto | Personalização | 0.6 |
-
+```
 ### Nível 2: Raciocínio Estruturado
-
+```
 | Técnica || Técnica | Cadeia | Complexidade | Uso |
 |---------|--------|-------------|-----|
 | **CoT** | Pensamento passo-a-passo | ⭐⭐ | Reasoning |
@@ -26,9 +26,9 @@ Este documento consolida o conhecimento da biblioteca anterior com as técnicas 
 | **GoT** | Grafo com reutilização | ⭐⭐⭐⭐ | Síntese |
 | **SoT** | Esqueleto + expansão paralela | ⭐⭐⭐ | Velocidade |
 | **Least-to-Most** | Decomposição sequencial | ⭐⭐⭐ | Complexidade |
-
+```
 ### Nível 3: Auto-Correção e Verificação
-
+```
 | Técnica || Técnica | Mecanismo | Overhead | Aplicação |
 |---------|-----------|----------|-----------|
 | **Self-Consistency** | Votação majoritária | Médio | Robustez |
@@ -36,25 +36,25 @@ Este documento consolida o conhecimento da biblioteca anterior com as técnicas 
 | **RCoT** | Reconstrução reversa | Médio | Validação |
 | **Self-Refine** | Iteração + feedback | Alto | Qualidade |
 | **Reflexion** | Memória retrospectiva | Alto | Adaptação |
-
+```
 ### Nível 4: Interação e Ação
-
+```
 | Técnica | Interface| Técnica | Interface | Estado | Aplicação |
 |---------|-----------|--------|-----------|
 | **ReAct** | Thought-Action-Observation | Dinâmico | Agentes |
 | **PoT** | Code execution | Computável | Matemática |
 | **RAG** | Retrieval-augmented | Externo | Contexto |
 | **MRKL** | Tool routing | Multi-tool | Orquestração |
-
+```
 ### Nível 5: Meta-Otimização
-
+```
 | Técnica || Técnica | Domínio | Escala | Custo |
 |---------|---------|--------|-------|
 | **APE** | Otimização automática | Prompt-level | Alto |
 | **PromptBreeder** | Evolução genética | Prompt-level | Muito Alto |
 | **RLPrompt** | Reforço | Token-level | Muito Alto |
 | **Continuous Tuning** | Soft prompts | Vector-level | Médio |
-
+```
 ***
 
 ## 🎯 PARTE II: MODELOS OPERACIONAIS — 10 VARIAÇÕES AUTODICOT
