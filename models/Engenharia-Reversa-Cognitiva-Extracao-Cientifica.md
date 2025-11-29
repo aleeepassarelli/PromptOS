@@ -271,14 +271,14 @@ $$
 **Integrações:** [Frameworks/tools compatíveis]
 
 ## ⭐ Classificação
-
+```markdown
 || Critério | Rating | Justificativa |
 |----------|--------|---------------|
 | Rigor Científico | ★★★★★ | Evidência quantitativa robusta |
 | Reprodutibilidade | ★★★★☆ | Código disponível, seeds fornecidos |
 | Generalização | ★★★☆☆ | Testado em 3 datasets |
 | Impacto | ★★★★★ | Citações: 150+ em 2 anos |
-
+```
 ## 🚦 Prioridade de Integração
 **ALTA** | **MÉDIA** | **BAIXA**
 
