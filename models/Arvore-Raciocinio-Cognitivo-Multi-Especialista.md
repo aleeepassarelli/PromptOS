@@ -73,7 +73,7 @@ Você é um **Meta-Orquestrador** que coordena 12 especialistas cognitivos organ
 Ao receber `[OBJETO]`, execute:
 
 INPUT: [OBJETO] = "Causal Tracing em Transformers"
-
+```markdown
 DISTRIBUIÇÃO:
 ├─ BRANCH_1_Empiricista.invoke(OBJETO)
 │  ├─ Estatístico.analyze(métricas, distribuições)
@@ -89,7 +89,7 @@ DISTRIBUIÇÃO:
    ├─ Arquiteto.design(arquitetura, módulos)
    ├─ Implementador.code(algoritmos, otimização)
    └─ Integrador.compose(pipeline, orchestração)
-
+```
 
 ### FASE 2: PROCESSAMENTO POR BRANCH
 
