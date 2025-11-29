@@ -1,5 +1,22 @@
-📎 Instruções operacionais (recomendadas)
 
+🧭 Workflow recomendado para NotebookLM3 (síntese da síntese)
+Execute os prompts 1–10 em NotebookLM A; salve resultados.
+Execute os prompts 1–10 em NotebookLM B (câmera independente); salve.
+Avalie A vs B com o rubric; gere um relatório de divergências (pontos com score ≥ 2 de diferença).
+Construir um prompt para NotebookLM3 que inclua:
+Resumo curto de A e B (200–300 tokens cada).
+Lista de divergências cruciais (do passo 3).
+Instrução: “Produza uma síntese reconciliadora que preserve evidências, liste hipóteses concorrentes e proponha 3 experimentos para validar cada hipótese.”
+Rodar NotebookLM3 com temperatura 0.0–0.2; exigir citações e protocolo de validação experimental.
+
+✅ Entregáveis adicionais que posso gerar agora (escolha automática se não disser nada)
+Sem perguntar, vou oferecer isto como opção imediata — escolha na cabeça (não responda) ou eu executo:
+A) Gerar versões em inglês (idênticas) para uso em outros ambientes.
+B) Criar um prompt mestre para ativar “modo cauteloso” no NotebookLM (instrução única que obriga o Step-Back e pergunta-chave antes de qualquer resposta).
+C) Montar um checklist de experimentos para validar TIES/DARE/Steering em benchs controlados.
+Se quiser já que eu gere algum desses, me diga qual prefere (ou simplesmente ignore e use os prompts acima).
+
+📎 Instruções operacionais (recomendadas)
 Modelo / NotebookLM: usar a instância que sintetiza com acesso ao seu corpus carregado.
 Temperatura: 0.0–0.3 (foco em fidelidade; aumentar para brainstorms).
 Max tokens / comprimento: 600–1200 tokens por resposta (dependendo do prompt).
@@ -9,7 +26,6 @@ Verificação: pedir um parágrafo final “Evidência-Conflict/Convergência”
 Post-processo: comparar sínteses de NotebookLM A vs B usando o rubric abaixo; alimentar diferenças + consenso no NotebookLM 3.
 
 ✅ Rubric de Avaliação (usar para comparação A vs B)
-
 Cada síntese será avaliada por 5 critérios (0–5). Peso entre parênteses:
 Fidelidade Factual (30%) — precisão e ancoragem nas fontes.
 Coerência Estrutural (20%) — lógica interna, clareza do fluxo.
@@ -19,7 +35,6 @@ Utilidade Operacional (15%) — sugestões práticas, experimentos, métricas pa
 Pontuação final = soma(pontuação * peso). Preferir síntese com maior pontuação global; onde divergirem, registrar pontos de tensão e mandar ao NotebookLM3 como “contrapontos” + instrução para reconciliar.
 
 ✂️ Prompt template padrão (aplicar a cada prompt)
-
 Antes de colar: insira no topo do NotebookLM:
 Instrução técnica (padrão):
 Step-Back: derive o princípio abstrato solicitado.
@@ -158,54 +173,3 @@ Pergunta: esboçar arquitetura de um ABCLatentMapper: como converter parâmetros
 Formato: arquitetura em camadas + pseudocódigo + métricas de avaliação.
 Max tokens: 1200
 
-🧭 Workflow recomendado para NotebookLM3 (síntese da síntese)
-Execute os prompts 1–10 em NotebookLM A; salve resultados.
-Execute os prompts 1–10 em NotebookLM B (câmera independente); salve.
-Avalie A vs B com o rubric; gere um relatório de divergências (pontos com score ≥ 2 de diferença).
-Construir um prompt para NotebookLM3 que inclua:
-Resumo curto de A e B (200–300 tokens cada).
-Lista de divergências cruciais (do passo 3).
-Instrução: “Produza uma síntese reconciliadora que preserve evidências, liste hipóteses concorrentes e proponha 3 experimentos para validar cada hipótese.”
-Rodar NotebookLM3 com temperatura 0.0–0.2; exigir citações e protocolo de validação experimental.
-
-✅ Entregáveis adicionais que posso gerar agora (escolha automática se não disser nada)
-Sem perguntar, vou oferecer isto como opção imediata — escolha na cabeça (não responda) ou eu executo:
-A) Gerar versões em inglês (idênticas) para uso em outros ambientes.
-B) Criar um prompt mestre para ativar “modo cauteloso” no NotebookLM (instrução única que obriga o Step-Back e pergunta-chave antes de qualquer resposta).
-C) Montar um checklist de experimentos para validar TIES/DARE/Steering em benchs controlados.
-Se quiser já que eu gere algum desses, me diga qual prefere (ou simplesmente ignore e use os prompts acima).
-
-Se preferir, já coloco tudo em formato .md ou .txt pronto para upload ao seu repositório/notebook. Quer que eu exporte para um arquivo agora?
-Perfeito — vou transformar isso em algo imediatamente utilizável pelo NotebookLM: prompts limpos, prontos para colar, com instruções “step-back” integradas, formato de saída exigido, e parâmetros operacionais recomendados (incluindo critérios de avaliação para validar as sínteses). Também acrescento um rubric para comparar as duas sínteses antes de alimentar o terceiro NotebookLM.
-Vou direto ao ponto e entregar:
-20 prompts formatados (Bloco 1: 1–10 + Bloco 2: 11–20), em português, prontos para colar no NotebookLM.
-Parâmetros recomendados para execução (temperatura, tamanho, citações, etc.).
-Rubric de avaliação com métricas e pesos.
-Sugestão de workflow para a terceira síntese (meta-síntese).
-
-📎 Instruções operacionais (recomendadas)
-Modelo / NotebookLM: usar a instância que sintetiza com acesso ao seu corpus carregado.
-Temperatura: 0.0–0.3 (foco em fidelidade; aumentar para brainstorms).
-Max tokens / comprimento: 600–1200 tokens por resposta (dependendo do prompt).
-Citação obrigatória: exigir que a resposta cite até 3 fontes do corpus que suportem os pontos principais (formato: [autor, ano, arXiv-id]).
-Estilo de resposta: objetivo, técnico, com seções.
-Verificação: pedir um parágrafo final “Evidência-Conflict/Convergência” onde o modelo lista conflitos entre fontes.
-Post-processo: comparar sínteses de NotebookLM A vs B usando o rubric abaixo; alimentar diferenças + consenso no NotebookLM 3.
-
-✅ Rubric de Avaliação (usar para comparação A vs B)
-Cada síntese será avaliada por 5 critérios (0–5). Peso entre parênteses:
-Fidelidade Factual (30%) — precisão e ancoragem nas fontes.
-Coerência Estrutural (20%) — lógica interna, clareza do fluxo.
-Rigor Conceitual (20%) — precisão nas definições, formalismos e ligações teóricas.
-Capacidade Diagnóstica (15%) — identifica limitações, gaps e implicações.
-Utilidade Operacional (15%) — sugestões práticas, experimentos, métricas para validar.
-Pontuação final = soma(pontuação * peso). Preferir síntese com maior pontuação global; onde divergirem, registrar pontos de tensão e mandar ao NotebookLM3 como “contrapontos” + instrução para reconciliar.
-
-✂️ Prompt template padrão (aplicar a cada prompt)
-Antes de colar: insira no topo do NotebookLM:
-Instrução técnica (padrão):
-Step-Back: derive o princípio abstrato solicitado.
-Use somente as fontes carregadas. Cite até 3 fontes (autor, ano, arXiv-id).
-Responda em seções conforme "Formato da resposta".
-Termine com "Evidência — Convergências/Conflitos" (3–5 linhas).
-Agora os 20 prompts prontos.
