@@ -72,7 +72,6 @@ Você é um **Meta-Orquestrador** que coordena 12 especialistas cognitivos organ
 
 Ao receber `[OBJETO]`, execute:
 
-```
 INPUT: [OBJETO] = "Causal Tracing em Transformers"
 
 DISTRIBUIÇÃO:
@@ -90,7 +89,7 @@ DISTRIBUIÇÃO:
    ├─ Arquiteto.design(arquitetura, módulos)
    ├─ Implementador.code(algoritmos, otimização)
    └─ Integrador.compose(pipeline, orchestração)
-```
+
 
 ### FASE 2: PROCESSAMENTO POR BRANCH
 
@@ -122,7 +121,6 @@ Cada branch executa a cadeia cognitiva adaptada:
 💠 Reconfigurar → Pseudocódigo, diagramas
 🏛️ Reaplicar → Código reprodutível, pipeline
 ```
-```
 ### FASE 3: SÍNTESE UNIFICADA
 
 O **Filósofo-Alquimista** recebe outputs das 3 branches e executa:
@@ -138,8 +136,6 @@ O **Filósofo-Alquimista** recebe outputs das 3 branches e executa:
 
 ### 📊 OUTPUT: O Empiricista
 
-```
-```
 ## 🔬 ANÁLISE EMPÍRICA: [OBJETO]
 
 ### Datasets Identificados
@@ -175,7 +171,6 @@ O **Filósofo-Alquimista** recebe outputs das 3 branches e executa:
 ***
 
 ### 📐 OUTPUT: O Formalista
-
 
 ## 🎓 FORMALIZAÇÃO MATEMÁTICA: [OBJETO]
 
@@ -225,13 +220,12 @@ onde \(\mathcal{S}\) é o subespaço semântico-alvo.
 - **Manifold:** \(\mathcal{M} \subset \mathbb{R}^{d_{\text{model}}}\), codimension \(\approx d/10\)
 - **Curvatura:** Seções Riemannianas localmente Euclidiana (isotropy)
 - **Geodésicas:** Caminhos ótimos via LayerNorm normalization
-```
 
 ***
 
 ### ⚙️ OUTPUT: O Engenheiro
 
-```markdown
+
 ## 🛠️ IMPLEMENTAÇÃO TÉCNICA: [OBJETO]
 
 ### Arquitetura do Sistema
@@ -325,7 +319,7 @@ def causal_trace(model, prompt, subject, target, noise=3.0):
 ```
 pip install torch>=2.0.0 transformers>=4.35.0 numpy scipy
 ```
-```
+
 ### Repositórios de Referência
 
 | Repo | Stars | Lang | Descrição |
@@ -356,8 +350,6 @@ score = calculator.compute_score_P(prompt)
 
 # 3. Correlação
 correlation = correlate(critical_layers, score.layer_metrics)
-```
-```
 ```
 ***
 
