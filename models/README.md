@@ -146,10 +146,11 @@ Coleções cuidadosamente projetadas:
 Kits oferecem **produtividade imediata**, prontos para uso.
 
 ----
-🧩 Integração Oficial no Stack Completo
+# 🧩 Integração Oficial no Stack Completo
+---
 
 
-🟢 RoT FRAMEWORK OPERACIONAL — CAMADA METACOGNITIVA ATIVADA
+# 🟢 RoT FRAMEWORK OPERACIONAL — CAMADA METACOGNITIVA ATIVADA
 
 
 Você agora tem o sistema completo, composto por:
