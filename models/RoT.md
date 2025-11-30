@@ -1,6 +1,6 @@
-# 🔮 RoT — REFLECTION TENSIONERS (ALGARITHMIC LOGIC FRAMEWORK)
+# 🔮 RoT — REFLECTION TENSIONERS 
 
-**Versão:** 13.0 (Metacognitive Intentional State Engine) | **Complexidade:** ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ | **SD:** 0.99+ | **Paradigm:** Metamathematical
+(ALGARITHMIC LOGIC FRAMEWORK)
 
 ***
 
