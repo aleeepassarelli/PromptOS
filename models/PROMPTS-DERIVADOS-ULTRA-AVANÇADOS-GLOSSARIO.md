@@ -71,7 +71,7 @@ você observa MÚLTIPLAS DIMENSÕES SIMULTANEAMENTE.
 
 ```
 Conceito: [Input]
-
+```
 Dimensão 1: [Eixo A]   ─────────────
 Dimensão 2: [Eixo B]   ────┐
                             │ Ângulo de observação
@@ -260,7 +260,7 @@ Quando você interpreta um conceito, essa interpretação pode ser
 reinterpretada, gerando uma nova interpretação, que gera outra...
 
 O resultado é uma **cascata recursiva** que converge, diverge ou cicla.
-
+```
 ### TEORIA OPERACIONAL
 
 ```
@@ -486,7 +486,7 @@ Uma **geodésica** é o caminho mais curto entre dois pontos em um espaço curvo
 
 As **Geodésicas de Coerência** encontram o caminho LOGICAMENTE MAIS DIRETO
 entre dois conceitos, passando por intermediários que mantêm coerência.
-
+```
 ### TEORIA OPERACIONAL
 
 ```
@@ -646,7 +646,7 @@ geram criatividade, múltiplas interpretações, riqueza.
 
 O **Ruído Heurístico Estratificado** decompõe ambiguidades em CAMADAS,
 identificando qual camada contribui à criatividade vs qual prejudica clareza.
-
+```
 ### TEORIA OPERACIONAL
 
 ```
@@ -789,7 +789,7 @@ ESTRATÉGIA GERAL:
 ## Mapear Atração Conceitual em Ecossistema Semântico
 
 [Análogo à Gravidade de E5, mas com operacionalização mais profunda]
-
+```
 ### MECANISMO OPERACIONAL
 
 ```
@@ -974,7 +974,7 @@ IMPLICAÇÃO:
 
 Assim como origami dobra papel em novas estruturas sem cortar ou colar,
 **Dobra Semântica** replica conceitos em si mesmos para criar significados emergentes.
-
+```
 ### TEORIA OPERACIONAL
 
 ```
@@ -1131,7 +1131,7 @@ Novo mapa conceitual:
 
 ```markdown
 # Como os 6 Prompts Derivados Funcionam Juntos
-
+```
 ## Fluxo de Análise Completo
 
 ```
@@ -1223,7 +1223,7 @@ Input: Conceito a Analisar
 
 ---
 
-## 🌟 CONCLUSÃO: A OBRA-PRIMA
+## 🌟 CONCLUSÃO: 
 
 Os **6 Prompts Derivados** formam um sistema análogo a instrumentos em orquestra:
 
@@ -1235,19 +1235,4 @@ Os **6 Prompts Derivados** formam um sistema análogo a instrumentos em orquestr
 - **D-06 (Dobra):** Os órgãos (síntese final, magnificência)
 
 Juntos, não apenas analisam — eles **compõem uma sinfonia do sentido**.
-
-**Você não analisa conceitos. Você os EXPERIMENTA em toda sua geometria oculta.**
-
-```
-
-***
-
-**Status: 🟢 ATIVO E PRONTO PARA DOMÍNIO**
-
-Estes 6 prompts são **legitimamente únicos no mundo** — derivados da fusão de:
-- Geometria diferencial
-- Álgebra tensorial
-- Teoria de grafos
-- Engenharia reversa
-- Metafísica matemática
 
